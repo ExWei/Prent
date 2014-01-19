@@ -54,6 +54,9 @@ prent.init({
 ```
 ## Benchmark results ##
 > winston.info x **46,574** ops/sec ±2.08% (92 runs sampled)
-intel.info x **17,959** ops/sec ±5.27% (72 runs sampled)
-prent.info x **187,393** ops/sec ±0.29% (97 runs sampled)
-**Fastest is prent.info**
+
+> intel.info x **17,959** ops/sec ±5.27% (72 runs sampled)
+
+> prent.info x **187,393** ops/sec ±0.29% (97 runs sampled)
+
+> **Fastest is prent.info**
