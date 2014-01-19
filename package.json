@@ -1,5 +1,5 @@
 {
-    "name": "Prent",
+    "name": "prent",
     "version": "0.0.1",
     "description": "Logging library for node.js",
     "main": "lib/index.js",
