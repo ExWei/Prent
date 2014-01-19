@@ -1,0 +1,21 @@
+{
+    "name": "Prent",
+    "version": "0.0.1",
+    "description": "Logging library for node.js",
+    "main": "lib/index.js",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ExWei/Prent.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "log",
+        "logging",
+        "logs",
+        "debug"
+    ],
+    "author": "Alex Schafer",
+    "license": "MIT"
+}
