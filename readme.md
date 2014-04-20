@@ -19,11 +19,13 @@ Third, starting now, you can use Prent logging.
 For example:
 ```
 prent.trace("Some trace message");
+prent.info("2 + 2 is ", 2 + 2);
 ```
 Will outputted as
-> **[** Trace **]** **[** Sun, 19 Jan 2014 08:48:57 GMT **]**: Some trace message*
+> **[** Trace **]** **[** Sun, 19 Jan 2014 08:48:57 GMT **]**: Some trace message
+> **[** Info **]** **[** Sun, 19 Jan 2014 08:48:57 GMT **]**: 2 + 2 is 4
 
-*"Trace" are colored.
+*"Trace" and "Info" are colored.
 
 Configuration
 ---------
@@ -53,10 +55,10 @@ prent.init({
 }});
 ```
 ## Benchmark results ##
-> winston.info x **46,574** ops/sec ±2.08% (92 runs sampled)
+> winston.info x **95,060** ops/sec ±0.44% (96 runs sampled)
 
-> intel.info x **17,959** ops/sec ±5.27% (72 runs sampled)
+> intel.info x **58,784** ops/sec ±1.34% (96 runs sampled)
 
-> prent.info x **187,393** ops/sec ±0.29% (97 runs sampled)
+> prent.info x **207,741** ops/sec ±2.98% (94 runs sampled)
 
 > **Fastest is prent.info**

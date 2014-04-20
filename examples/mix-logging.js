@@ -4,7 +4,8 @@ var a, b, c;
 
 prent.info("Start");
 a = 1;
-prent.trace("A is " +  a);
+prent.trace("A is %s", a);
+prent.info("2 + 2 is %s", 2 + 2);
 prent.debug("Program is still run");
 longCalculation(function(result) {
     prent.info("longCalculation returned callback");
