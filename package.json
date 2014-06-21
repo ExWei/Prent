@@ -1,6 +1,6 @@
 {
     "name": "prent",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Logging library for node.js",
     "main": "lib/index.js",
     "repository" : {
