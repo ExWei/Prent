@@ -21,7 +21,7 @@ For example:
 prent.trace("Some trace message");
 prent.info("2 + 2 is ", 2 + 2);
 ```
-Will outputted as
+Will outputted as:
 > **[** Trace **]** **[** Sun, 19 Jan 2014 08:48:57 GMT **]**: Some trace message
 > **[** Info **]** **[** Sun, 19 Jan 2014 08:48:57 GMT **]**: 2 + 2 is 4
 
@@ -29,7 +29,7 @@ Will outputted as
 
 Configuration
 ---------
-Prent can be configured through prent.init()
+Prent can be configured through prent.init().
 For example, below configuration will write to console and file (logfile.txt) with frequency value 3 (write when logs >= than 3):
 ```
 prent.init({
